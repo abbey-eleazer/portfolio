@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply bg-colorPrimary;
+}
+
+.hero-container {
+  @apply grid grid-cols-12 mt-32 pb-32;
+}
+
+.hero-text {
+  @apply mt-32 text-colorText font-serif col-start-2 col-span-6;
+}
+
+.hero-image-wrapper {
+  @apply ml-32 w-[30rem] col-start-8 col-span-3;
+}
+
+.hero-image-background {
+  @apply absolute w-[25rem] h-[42.5rem] top-0 translate-x-[5.3rem] bg-colorSecondary  border-t-0 border-4 border-colorText;
+}
+
+.hero-text-heading h1 {
+  @apply text-9xl font-black font-sans text-colorTertiary mb-12;
+}
+
+.hero-text-heading h2 {
+  @apply text-5xl font-bold font-sans mb-3 capitalize;
+}
+
+.hero-text-about {
+  @apply w-[40rem] text-lg;
+}
+
+.hero-text-btn {
+  @apply absolute mt-10;
+}
+.hero-text-btn button {
+  @apply bg-colorSecondary px-5 py-2.5 rounded font-bold capitalize text-colorPrimary;
+}
+
+/* SKILLS  */
+
+.skills-container {
+  @apply flex flex-col mt-32;
+}
+.skills-container ul li {
+  @apply flex flex-col w-[6rem] h-[8rem] items-center;
+}
+
+.logo {
+  @apply w-[5rem] h-[5rem] object-contain flex justify-center items-center pb-4;
+}
+
+.skills-name {
+  @apply text-colorText text-2xl font-semibold text-center capitalize;
+}
+
+.heading-secondary {
+  @apply text-colorText capitalize text-5xl font-bold tracking-wider ml-40 border-t-4 border-colorSecondary pt-5 pb-12;
+}
+
+.skills-animation-wrapper {
+  @apply flex gap-40 w-[83%] h-60 mx-auto overflow-hidden;
+}
+
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+}
+
+.scroll-anime {
+  animation: scrollLeft 15s linear infinite;
+  backface-visibility: hidden;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.projects-container {
+  @apply mx-auto mt-32;
+}
+
+.project-wrapper {
+  @apply flex items-center justify-evenly mx-auto w-[80%] mt-32;
+}
+.project-wrapper-2 {
+  @apply flex flex-row-reverse items-center justify-evenly mx-auto w-[80%] mt-32;
+}
+
+.project-image {
+  @apply w-[40%] rounded-xl object-contain overflow-hidden transform;
+}
+
+.project-text {
+  @apply h-full w-[30%] border-2 border-l-0 border-r-0 py-5 px-4 border-colorTertiary;
+}
+
+.project-text-description {
+  @apply text-colorText text-xl pt-5 pb-5 border-b border-colorTertiary mb-5;
+}
+
+.project-text-url {
+  @apply hover:text-colorSecondary text-colorText text-xl;
+}
+.project-text-stack {
+  @apply pt-4 pb-5 mt-5 border-t border-colorTertiary  text-colorText text-xl;
+};
+
+/* nav */
+
+.footer {
+  @apply flex justify-evenly items-center w-full h-32 mt-32 bg-colorSecondary mx-auto
+}
+
+.name {
+  @apply text-center text-lg
+}
+
+.socials {
+  @apply flex gap-8 
+}
+.icons {
+  @apply flex pt-3
+}
