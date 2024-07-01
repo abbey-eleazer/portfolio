@@ -9,7 +9,7 @@
        <p class="project-text-description">
         A website that helps you simplify your bulky url's into simple and short url.
        </p>
-       <a href="https://shortly-eleazer.netlify.app/" class="project-text-url">https://shortly-eleazer.netlify.app/</a>
+       <a href="https://gams-and-lams-painting-and-decorating.netlify.app" class="project-text-url">https://gams-and-lams-painting-and-decorating.netlify.app</a>
        <p class="project-text-stack">
          Built with: Tailwind Css
        </p>

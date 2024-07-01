@@ -7,7 +7,7 @@
     <div class="socials">
       <ul class="icons">
         <li><a href=""><img src="../../images/square-github.svg" alt=""></a></li>
-        <li>d<a href=""><img src="../../images/square-github.svg" alt=""></a></li>
+        <li><a href=""><img src="../../images/square-github.svg" alt=""></a></li>
         <li><a href=""><img src="../../images/square-github.svg" alt=""></a></li>
         <li><a href=""><img src="../../images/square-github.svg" alt=""></a></li>
       </ul>
