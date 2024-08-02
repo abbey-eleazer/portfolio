@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .container {
   @apply bg-colorPrimary;
 }
@@ -91,10 +92,10 @@
 }
 
 .project-wrapper {
-  @apply flex items-center justify-evenly mx-auto w-[80%] mt-32;
+  @apply flex items-center justify-evenly mx-auto w-[80%] mt-32 pb-24;
 }
 .project-wrapper-2 {
-  @apply flex flex-row-reverse items-center justify-evenly mx-auto w-[80%] mt-32;
+  @apply flex flex-row-reverse items-center justify-evenly mx-auto w-[80%] mt-32 pb-24;
 }
 
 .project-image {
@@ -123,12 +124,40 @@
 }
 
 .name {
-  @apply text-center text-lg
+  @apply text-center text-lg font-semibold
 }
 
 .socials {
-  @apply flex gap-8 
+  @apply p-4 
 }
-.icons {
-  @apply flex pt-3
+
+.links {
+  @apply flex items-center justify-center gap-5 
+}
+.links li {
+  @apply flex items-center justify-center gap-2 hover:border-b hover:pb-1 hover:border-black
+}
+
+.links li a {
+  @apply font-semibold 
+}
+
+
+
+/* callout */
+
+.callout-container {
+  @apply mx-auto mt-32;
+}
+
+.callout-banner {
+  @apply w-[80%] mx-auto mt-32 text-center ;
+}
+
+.callout-text {
+  @apply text-8xl text-colorSecondary tracking-wide capitalize font-bold pb-32;
+}
+
+.callout-btn {
+  @apply text-6xl font-semibold capitalize text-colorTertiary  font-serif mx-auto px-8 py-5 hover:bg-colorTertiary hover:text-colorPrimary hover:rounded-2xl;
 }

@@ -1,27 +1,20 @@
 <template>
    <div class="footer">
     <div class="name">
-      <h3>Eleazer Abbey</h3>
-      <p>&copy;2024</p>
+      <h3>Eleazer Abbey Nii </h3>
+      <p> &copy; 2024</p>
     </div>
     <div class="socials">
-      <ul class="icons">
-        <li><a href=""><img src="../../images/square-github.svg" alt=""></a></li>
-        <li><a href=""><img src="../../images/square-github.svg" alt=""></a></li>
-        <li><a href=""><img src="../../images/square-github.svg" alt=""></a></li>
-        <li><a href=""><img src="../../images/square-github.svg" alt=""></a></li>
-      </ul>
+     
       <ul class="links">
-        <li><a href="">github</a></li>
-        <li><a href="">discord</a></li>
-        <li><a href="">mail</a></li>
-        <li><a href="">twitter</a></li>
+        <li><i  class="pi pi-github text-lg cursor-pointer"></i><a href="https://github.com/abbey-eleazer">github</a></li>
+        <li><i class="pi pi-envelope text-lg cursor-pointer"></i><a href="mailto:abbeyeleazer@gmail.com">mail</a></li>
+        <li><i  class="pi pi-twitter text-lg cursor-pointer"></i><a href="https://x.com/@Abbey_Eleazer">twitter</a></li>
       </ul>
     </div>
    </div>
 </template>
 
 <script setup>
-
 
 </script>

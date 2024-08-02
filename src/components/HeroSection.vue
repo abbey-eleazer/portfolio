@@ -1,5 +1,10 @@
 <template>
   <main>
+    <div class="flex gap-8 ml-[10%] mt-12">
+      <a href="https://github.com/abbey-eleazer"><i class="pi pi-github text-3xl text-colorSecondary cursor-pointer" style=""></i></a>
+      <a href="mailto:abbeyeleazer@gmail.com"><i class="pi pi-envelope text-3xl  text-colorSecondary cursor-pointer"></i></a>
+      <a href="https://x.com/@Abbey_Eleazer"><i class="pi pi-twitter text-3xl  text-colorSecondary cursor-pointer"></i></a>
+    </div>
     <div class="hero-container">
       <div class="w-full border-t-4 col-span-9 border-colorSecondary"></div>
       <div class="hero-text">
@@ -11,7 +16,7 @@
             <p>I'm a Frontend web developer based in Accra, Ghana. I like to replicate designs into clean, beautiful, functional and responsive User Interfaces. I have experience building websites and web applications using HTML, CSS, SCSS, and JavaScript.</p>
           </div>
           <div class="hero-text-btn">
-            <button>get in touch</button>
+            <button><a href="mailto:abbeyeleazer@gmail.com">Get In Touch</a></button>
           </div>
       </div>
 
