@@ -1,11 +1,11 @@
 <template>
   <main>
-    <div class="flex gap-8 ml-[10%] mt-12">
+    <div class="absolute flex gap-8 ml-[9%] mt-12">
       <a href="https://github.com/abbey-eleazer"><i class="pi pi-github text-3xl text-colorSecondary cursor-pointer" style=""></i></a>
       <a href="mailto:abbeyeleazer@gmail.com"><i class="pi pi-envelope text-3xl  text-colorSecondary cursor-pointer"></i></a>
       <a href="https://x.com/@Abbey_Eleazer"><i class="pi pi-twitter text-3xl  text-colorSecondary cursor-pointer"></i></a>
     </div>
-    <div class="hero-container">
+    <div class=" hero-container">
       <div class="w-full border-t-4 col-span-9 border-colorSecondary"></div>
       <div class="hero-text">
         <div class="hero-text-heading">
