@@ -9,7 +9,7 @@
           <p class="text-colorText text-sm p-2 md:text-xl md:pt-5 md:pb-5 border-b border-colorTertiary mb-5">
            Installa is an advertising conpany, which runs digital and online marketing strategies to help businesses grow.
           </p>
-          <a href="https://shortly-eleazer.netlify.app/" class="hover:text-colorSecondary text-colorText text-sm md:text-xl">https://installa-marketing.netlify.app/</a>
+          <a href="https://installa-marketing.netlify.app/" class="hover:text-colorSecondary text-colorText text-sm md:text-xl">https://installa-marketing.netlify.app/</a>
           <p class="pt-4 md:pb-5 pb-2 mt-5 border-t border-colorTertiary  text-colorText text-sm md:text-xl">
             Built with: Vue 3, Tailwind Css
           </p>
