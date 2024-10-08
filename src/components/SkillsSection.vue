@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col -mt-24 md:mt-32">
-  <h2 class="text-colorText ml-4 capitalize text-5xl font-bold tracking-wider md:ml-40 border-t-4 border-colorSecondary pt-5 pb-12">skills</h2>
+  <div class="flex flex-col mt-44 ">
+  <h2 class="text-colorText capitalize text-3xl md:text-4xl lg:text-5xl font-bold tracking-wider border-t-2 lg:border-t-4 border-colorSecondary pt-5 pb-12">skills</h2>
 
   <div class="skills-animation-wrapper group">
     <ul class="flex gap-40 h-full items-center scroll-anime scroll-smooth group-hover:paused" aria-hidden="true">

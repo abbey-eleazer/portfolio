@@ -14,7 +14,7 @@
 
 
 .skills-animation-wrapper {
-  @apply flex gap-40 w-[83%] h-60 mx-auto overflow-hidden;
+  @apply flex gap-40 h-60 overflow-hidden;
 }
 
 @layer utilities {

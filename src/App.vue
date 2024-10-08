@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="mx-5 md:mx-8 lg:mx-24 2xl:mx-32 ">
     <hero-section />
     <skills-section />
     <project-section />
     <get-intouch />
-    <nav-section />
   </div>
+  <nav-section />
 </template>
 
 
