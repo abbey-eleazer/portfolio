@@ -47,12 +47,12 @@
       </div>
         <h3 class="text-colorText text-lg md:text-2xl font-semibold text-center capitalize">vue</h3>
       </li>
-      <li class=" flex flex-col w-[6rem] h-[8rem] items-center">
+      <!-- <li class=" flex flex-col w-[6rem] h-[8rem] items-center">
         <div class="w-[5rem] h-[5rem] object-contain flex justify-center items-center pb-4">
         <img class="w-[8rem] object-fill" src="../../images/react-removebg-preview.png" alt="">
       </div>
         <h3 class="text-colorText text-lg md:text-2xl font-semibold text-center capitalize">react</h3>
-      </li>
+      </li> -->
       <li class=" flex flex-col w-[6rem] h-[8rem] items-center">
         <div class="w-[5rem] h-[5rem] object-contain flex justify-center items-center pb-4">
         <img src="../../images/ts-removebg-preview.png" alt="">
@@ -110,12 +110,12 @@
       </div>
         <h3 class="text-colorText text-lg md:text-2xl font-semibold text-center capitalize">vue</h3>
       </li>
-      <li class=" flex flex-col w-[6rem] h-[8rem] items-center">
+      <!-- <li class=" flex flex-col w-[6rem] h-[8rem] items-center">
         <div class="w-[5rem] h-[5rem] object-contain flex justify-center items-center pb-4">
         <img class="w-[8rem] object-fill" src="../../images/react-removebg-preview.png" alt="">
       </div>
         <h3 class="text-colorText text-lg md:text-2xl font-semibold text-center capitalize">react</h3>
-      </li>
+      </li> -->
       <li class=" flex flex-col w-[6rem] h-[8rem] items-center">
         <div class="w-[5rem] h-[5rem] object-contain flex justify-center items-center pb-4">
         <img src="../../images/ts-removebg-preview.png" alt="">

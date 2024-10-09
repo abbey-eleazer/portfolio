@@ -1,10 +1,16 @@
+<script setup>
+</script>
+
 <template>
-     <div class="flex items-center justify-evenly mx-auto mt-12 pb-10 w-[100%] md:w-[80%] md:mt-32 md:pb-24 flex-col">
+     <div class=" flex flex-col lg:flex-row items-center lg:gap-24 mx-auto mt-12 pb-10 w-[100%]  md:mt-32 md:pb-24 ">
     
-      <div class=" w-[80%] rounded-md pb-10 md:w-[40%] md:rounded-xl object-contain overflow-hidden transform rotate-6">
-    <img src="../../images/Installa.png" alt="img">
+      <div class=" w-[100%] pb-10 px-5 lg:px-0 rotate-6">
+    <img class="rounded-md" src="../../images/Installa.png" alt="img">
       </div>
-        <div class="h-full w-full px-4 md:w-[30%] border-2 border-l-0 border-r-0 py-5 md:px-4 border-colorTertiary">
+
+      <!-- Text  -->
+        <div class="h-full w-full px-4 border-2 border-l-0 border-r-0 py-5 md:px-4 border-colorTertiary">
+
           <h4 class="text-colorText font-bold text-xl md:text-3xl border-b border-colorTertiary pb-5">Installa</h4>
           <p class="text-colorText text-sm p-2 md:text-xl md:pt-5 md:pb-5 border-b border-colorTertiary mb-5">
            Installa is an advertising conpany, which runs digital and online marketing strategies to help businesses grow.
@@ -16,5 +22,6 @@
         </div>
         <slot></slot>
       </div>
+    
 </template>
 
