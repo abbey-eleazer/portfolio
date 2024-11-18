@@ -19,7 +19,7 @@
 </p>
 <a href="https://recipe-app-nuxt.netlify.app" class="hover:text-colorSecondary text-colorText text-sm md:text-xl">https://recipe-app-nuxt.netlify.app</a>
 <p class="pt-4 md:pb-5 pb-2 mt-5 border-t border-colorTertiary  text-colorText text-sm md:text-xl">
-  Built with: Nuxt, Typescript & Tailwind Css
+  Built with: Nuxt 4, Typescript & Tailwind Css
 </p>
 </div>
    </div>
