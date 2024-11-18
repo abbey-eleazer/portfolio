@@ -7,7 +7,7 @@
   <div class=" flex flex-col lg:flex-row items-center lg:gap-24 mx-auto mt-12 pb-10 w-[100%]  md:mt-32 md:pb-24">
  
     <div class=" w-[100%] pb-10 px-5 lg:px-0 rotate-[-6deg]">
- <img src="../../images/clipboard.png" alt="">
+ <img src="../../images/recipe-app.png" alt="">
    </div>
 
       <!-- Text  -->
@@ -15,11 +15,11 @@
 
 <h4 class="text-colorText font-bold text-xl md:text-3xl border-b border-colorTertiary pb-5">Clipboard</h4>
 <p class="text-colorText text-sm p-2 md:text-xl md:pt-5 md:pb-5 border-b border-colorTertiary mb-5">
-  A website that helps you simplify your bulky url's into simple and short url.
+  A Food recipe app, which helps users to find healthy and delicious food recipes.
 </p>
-<a href="https://clipboard-eleazer.netlify.app/" class="hover:text-colorSecondary text-colorText text-sm md:text-xl">https://clipboard-eleazer.netlify.app/</a>
+<a href="https://recipe-app-nuxt.netlify.app" class="hover:text-colorSecondary text-colorText text-sm md:text-xl">https://recipe-app-nuxt.netlify.app</a>
 <p class="pt-4 md:pb-5 pb-2 mt-5 border-t border-colorTertiary  text-colorText text-sm md:text-xl">
-  Built with: Tailwind Css
+  Built with: Nuxt, Typescript & Tailwind Css
 </p>
 </div>
    </div>
