@@ -15,9 +15,11 @@
       <!-- Text  -->
       <div class="h-full w-full px-4 border-2 border-l-0 border-r-0 py-5 md:px-4 border-colorTertiary">
 
-<h4 class="text-colorText font-bold text-xl md:text-3xl border-b border-colorTertiary pb-5">Loop Studio</h4>
+<h4 class="text-colorText font-bold text-xl md:text-3xl border-b border-colorTertiary pb-5">
+Modern Estate 
+</h4>
 <p class="text-colorText text-sm p-2 md:text-xl md:pt-5 md:pb-5 border-b border-colorTertiary mb-5">
-  YOu number one website for tech related blogs and latest tech gadgets.
+  UI built for an Estate Agency
 </p>
 <a href="https://modern-estate-ui.netlify.app" class="hover:text-colorSecondary text-colorText text-sm md:text-xl">https://modern-estate-ui.netlify.app</a>
 <p class="pt-4 md:pb-5 pb-2 mt-5 border-t border-colorTertiary  text-colorText text-sm md:text-xl">
